@@ -10,8 +10,3 @@ COPY . .
 # RUN go get -d -v ./...
 # RUN go install -v ./...
 # CMD ["hello"]
-# RUN go build -v hello
-# RUN CGO_ENABLED=0 GOOS=darwin GOARCH=amd64 go build -v hello
-# RUN ls -l
-
-# ENTRYPOINT ["/go/bin/hello"]
