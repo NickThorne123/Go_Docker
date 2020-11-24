@@ -36,7 +36,7 @@ Note that you can follow these commands with `./..` [which is like a Go */* wild
 
 ## Docker build (do try this at home)
 
-So enough background, onto a much better way to build and run Go, using the containerisation powers of Docker. There are a few resoruces like the [official golang image](https://hub.docker.com/_/gola). There are some useful bits in [this article](https://levelup.gitconnected.com/complete-guide-to-create-docker-container-for-your-golang-application-80f3fb59a15e) too.
+So enough background, onto a much better way to build and run Go, using the containerisation powers of Docker. There are a few resoruces like the [official golang image](https://hub.docker.com/_/gola). There are some useful bits in [here](https://levelup.gitconnected.com/complete-guide-to-create-docker-container-for-your-golang-application-80f3fb59a15e) and [here](https://github.com/qorbani/docker-golang-hello-world) too.
 
 This was probably the most useful [Docker + Golang](https://www.docker.com/blog/docker-golang/) resource covering more of the cross-compilation options that will allow us to compile and build in Docker and generate a Mac executable.
 
