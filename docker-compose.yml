@@ -1,0 +1,12 @@
+version: '3.4'
+
+services:
+  ntgo:
+    image: ntgohello
+    volumes:
+      - .:/usr/src/myapp
+    working_dir: /usr/src/myapp
+    build: .
+    # working_dir: /go/src/hello
+    # command: sh -c "go get -d -v hello  && go install -v hello && go build -e GOOS=darwin -e GOARCH=amd64 -v hello && cat nt.txt && ls -l"
+    command: sh -c "ls -l && cat nt.txt && go get -d -v ./...  && go build -v ./... "
